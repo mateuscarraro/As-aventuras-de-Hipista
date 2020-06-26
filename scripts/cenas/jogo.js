@@ -46,7 +46,7 @@ class Jogo {
       this.inimigoAtual = 0;
     }
     
-    inimigo.velocidade = parseInt(random(10, 30));
+    inimigo.velocidade = parseInt(random(10, 35));
  }
   
   if(personagem.estaColidindo(inimigo)){
